@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="stylesRu .css">
+  <title>Игра - угадай число от 1 до 10</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="canvas">
+      <div class="desc">
+        <h2 class="desc_title">Угадайте число от 1 до 10</h2>
+        <p class="desc_Subtitle">Компьютер выбрал число от 1 до 10. Угадайте это число</p>
+      </div>
+      <div class="field">
+        <label for="field_input" class="field_label">Ваше число</label>
+        <input type="text" class="field_input">
+        <button class="field_btn">Проверка</button>
+      </div>
+      <div class="result">
+        <div class="result_chek">
+          <span class="result_chek_label">Результат : </span>
+          <span class="result_chek_out"></span>
+        </div>
+
+        <div class="result_help">
+          <span class="result_help_label">Подсказка : </span>
+          <span class="result_help_out"></span>
+        </div>
+        <div class="result_count">
+          <span class="result_count_label">Количество попыток : </span>
+          <span class="result_count_out"></span>
+        </div>
+      </div>
+    </div>
+
+    <script src="appRu.js"></script>
+</body>
+
+</html>

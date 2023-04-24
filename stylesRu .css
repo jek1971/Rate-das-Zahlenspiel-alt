@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  line-height: 1.5;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: linear-gradient(#ad5389, #3c1053);
+}
+
+.container {
+  width: 35%;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#ab5a8a, #3a0f51);
+  border: #fff solid 1px;
+  padding: 15px;
+  box-shadow: 15px 1px 30px 0 rgba(0, 0, 0, 0.14), 0 0 0 0 rgba(0, 0, 0, .12), 0 0 0 0 rgba(0, 0, 0, .3);
+  border-radius: 15px;
+}
+
+.desc_title {
+  font-size: 1.7rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 3ex;
+}
+
+.desc_Subtitle {
+  color: rgb(243, 255, 113);
+}
+
+.field_label {
+  font-size: 1.2rem;
+  margin-right: 1em;
+  margin-left: 4em;
+}
+
+.field_input {
+  padding: 5px;
+  height: 20px;
+  width: 80px;
+  border: 1px solid #14051d;
+  margin-right: 7px;
+}
+
+.field_btn {
+  padding: 5px;
+  height: 33px;
+  width: 120px;
+  border: 1px solid #14051d;
+  margin-right: 7px;
+  font-size: 1.1rem;
+  background: #fad64e;
+}

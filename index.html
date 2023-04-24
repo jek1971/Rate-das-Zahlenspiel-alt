@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Spiel - Welche Numer bis 10</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="canvas">
+      <div class="desc">
+        <h2 class="desc_title">Geben Sie die Nummer ein. 1 bis 10</h2>
+        <p class="desc_Subtitle">Der Computer hat eine Zahl zwischen 1 und 10 erraten. Erraten Sie die Zahl</p>
+      </div>
+      <div class="field">
+        <label for="field_input" class="field_label">Ihre Zahl</label>
+        <input type="text" class="field_input">
+        <button class="field_btn">Verifizieren</button>
+      </div>
+      <div class="result">
+        <div class="result_chek">
+          <span class="result_chek_label">Ergebnis : </span>
+          <span class="result_chek_out"></span>
+        </div>
+
+        <div class="result_help">
+          <span class="result_help_label">Vorsagen : </span>
+          <span class="result_help_out"></span>
+        </div>
+        <div class="result_count">
+          <span class="result_count_label">Anzahl der Versuche : </span>
+          <span class="result_count_out"></span>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
